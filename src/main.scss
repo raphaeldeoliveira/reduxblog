@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: darken(white, 20%);
+    width: 100%;
+    align-items: center;
+
+    .header__logo {
+        color: purple;
+        font-size: 4em;
+        padding: 15px;
+        margin-left: 25px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5em;
+        width: 60%;
+
+        & > a {
+            color: black;
+        }
+    }
+}
+
+.home, .reduxblog, .simplecounter, .simpleform {
+    width: 80%;
+    margin: 25px auto;
+}
